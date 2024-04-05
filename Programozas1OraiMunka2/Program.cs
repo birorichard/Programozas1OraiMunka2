@@ -32,7 +32,7 @@ var buddyOfStarsky = famousBuddies["Starsky"];
 
 Console.WriteLine($"Starsky társa: {buddyOfStarsky}");
 
-Console.WriteLine("\n");
+Console.WriteLine("\n"); // newline sor, üres sort szúr be
 
 // Ki akarjuk írni az összes kulcs érték-párt
 foreach (var key in famousBuddies.Keys)
