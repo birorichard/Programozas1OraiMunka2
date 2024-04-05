@@ -40,3 +40,21 @@ foreach (var key in famousBuddies.Keys)
     string currentBuddy = famousBuddies[key];
     Console.WriteLine($"{key} társa: {currentBuddy}");
 }
+
+// Törölni
+famousBuddies.Remove("Stan");
+
+Console.WriteLine("\n"); // newline sor, üres sort szúr be
+
+foreach (var key in famousBuddies.Keys)
+{
+    string currentBuddy = famousBuddies[key];
+    Console.WriteLine($"{key} társa: {currentBuddy}");
+}
+string nonExistingKey = "KisCica";
+bool containsBuddy = famousBuddies.ContainsKey(nonExistingKey);
+
+if (containsBuddy)
+{
+    Console.WriteLine(famousBuddies[nonExistingKey]);
+}
