@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// 1. Hozz létre egy üres List<int> adatszerkezetet
+// 2. Adj hozzá 5 tetszőleges számot 1 és 50 között, majd újabb 5-öt 51 és 100 között
+// 3. Hozz létre egy üres Dictionary<int, string> adatszerkezetet
+// 4. Egy ciklus segítségével töltsd fel a 3. pontban létrehozott Dictionary-t úgy, hogy az első tagja a List tartalma legyen,
+//    a második ugyanez, de string típusra konvertálva.
+// 5. Egy ciklus segítségével írd ki a List adatszerkezetet elemei közül azokat, amik kisebbek 50-nél.
 
 namespace Programazos1VizsgaGyak
 {
@@ -13,6 +14,7 @@ namespace Programazos1VizsgaGyak
             // 1. feladat
             var numbers = new List<int>();
 
+            // Ez is jó megoldás:
             //numbers.Add(1);
             //numbers.Add(3);
             //numbers.Add(31);
