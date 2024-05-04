@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.List", "Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gyakorlas", "Gyakorlas\Gyakorlas.csproj", "{A5290FA8-5A95-4B9D-A6DF-FE574649E1AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programozas1OraiMunka2.Dictionary", "Programozas1OraiMunka2\Programozas1OraiMunka2.Dictionary.csproj", "{03259578-C34F-41D7-9D3F-30545C17F101}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programozas1OraiMunka2.Dictionary", "Programozas1OraiMunka2\Programozas1OraiMunka2.Dictionary.csproj", "{03259578-C34F-41D7-9D3F-30545C17F101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programazos1VizsgaGyak", "Programazos1VizsgaGyak\Programazos1VizsgaGyak.csproj", "{890AED7C-A862-46B5-B25E-373F5F503BBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{03259578-C34F-41D7-9D3F-30545C17F101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03259578-C34F-41D7-9D3F-30545C17F101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03259578-C34F-41D7-9D3F-30545C17F101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890AED7C-A862-46B5-B25E-373F5F503BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890AED7C-A862-46B5-B25E-373F5F503BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890AED7C-A862-46B5-B25E-373F5F503BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890AED7C-A862-46B5-B25E-373F5F503BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
